@@ -16,3 +16,11 @@ def preprocess_text(text):
     words = [lemmatizer.lemmatize(word) for word in words]
     
     return ' '.join(words)
+
+def remove_freqwords(text: str, freq_words: list) -> str:
+    cleaned_text = " ".join([word for word in text.split() if word not in freq_words])
+    return cleaned_text
+
+def remove_rarewords(text: str, rare_words: list) -> str:
+    cleaned_text = " ".join([word for word in text.split() if word not in rare_words])
+    return cleaned_text
