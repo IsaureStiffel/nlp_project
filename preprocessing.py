@@ -1,9 +1,9 @@
-from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from nltk.stem.porter import PorterStemmer
 
 def preprocess_text(text):
-    lemmatizer = WordNetLemmatizer()
+    stemmer = PorterStemmer()
     stop_words = set(stopwords.words('english'))
 
     # Tokenization
@@ -13,7 +13,7 @@ def preprocess_text(text):
     # Remove stopwords
     words = [word for word in words if word not in stop_words]
     # Lemmatization using WordNetLemmatizer
-    words = [lemmatizer.lemmatize(word) for word in words]
+    words = [stemmer.stem(word) for word in words]
     
     return ' '.join(words)
 
