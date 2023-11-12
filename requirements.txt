@@ -1,0 +1,12 @@
+numpy 
+pandas
+plotly
+seaborn
+matplotlib
+sklearn
+nltk
+xgboost
+pytorch
+imblearn
+collections
+keras
