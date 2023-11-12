@@ -36,7 +36,7 @@
 
 This is a NLP project for the EPF 5th year class. This is for me an introduction to the subject where I discovered how to manage this kind of project and the different necessary steps. The main goal of this project is to learn and explore different Machine Learning and Deep Learning models. 
 
-It is based on a [Book Genre Prediction](#-https://www.kaggle.com/datasets/athu1105/book-genre-prediction/data) dataset from the plateform Kaggle. The goal is to analyze thanks to NLP the summary of books and classify them by their genre. 
+It is based on a [Book Genre Prediction](https://www.kaggle.com/datasets/athu1105/book-genre-prediction/data) dataset from the plateform Kaggle. The goal is to analyze thanks to NLP the summary of books and classify them by their genre. 
 
 This project is composed of three notebooks and one python script. 
 
@@ -120,7 +120,7 @@ For the Deep Learning part, I tried a lot of different models and a lot of Neura
 
 ## 👏 Acknowledgments
 
-Thank you to [Ryan Pegoud](#-https://github.com/RPegoud) for this class, I learned a lot of thing. 
+Thank you to [Ryan Pegoud](https://github.com/RPegoud) for this class, I learned a lot of thing. 
 
 [**Return**](#Top)
 
